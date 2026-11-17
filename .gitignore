@@ -1,0 +1,7 @@
+# large media and renders stay out of git
+*.mp4
+*.wav
+*.mov
+node_modules/
+renders/
+.hyperframes/
