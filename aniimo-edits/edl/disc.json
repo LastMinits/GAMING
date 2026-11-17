@@ -1,0 +1,630 @@
+{
+ "title": "Aniimo: New Discoveries",
+ "style": "disc",
+ "cap_words": 5,
+ "seam_sfx": [
+  "whoosh-short"
+ ],
+ "seam_vol": 0.22,
+ "hook": {
+  "text": "Aniimo baru yang boleh TERBANG?",
+  "kicker": "WHISPERWAKE ISLES · MAP BARU",
+  "d": 3.0
+ },
+ "outro": {
+  "text": "Jumpa apa lagi<br>di map baru?",
+  "kicker": "KOMEN PENEMUAN KORANG",
+  "dur": 3.0,
+  "sfx": "chime"
+ },
+ "segments": [
+  {
+   "id": "d01",
+   "in": 2298.0,
+   "out": 2305.0,
+   "captions": [
+    {
+     "t": 2299.02,
+     "e": 2301.2,
+     "text": "I like you!",
+     "hl": [
+      "LIKE"
+     ]
+    },
+    {
+     "t": 2302.24,
+     "e": 2304.24,
+     "text": "Patutlah nama dia Scrubbit, guys.",
+     "hl": [
+      "SCRUBBIT,"
+     ]
+    }
+   ],
+   "card": {
+    "at": 2300.4,
+    "kicker": "Aniimo ditangkap",
+    "name": "Scrubbit",
+    "desc": "No.017 · Rainfall Form",
+    "icon": "17",
+    "stamp": "BARU!"
+   },
+   "zooms": [
+    {
+     "at": 2298.2,
+     "s": 1.2,
+     "d": 1.5,
+     "ox": 30,
+     "oy": 50,
+     "ease": "power2.inOut"
+    }
+   ],
+   "sfx": [
+    {
+     "at": 2300.4,
+     "name": "sparkle",
+     "vol": 0.35
+    },
+    {
+     "at": 2300.9,
+     "name": "pop",
+     "vol": 0.35
+    }
+   ]
+  },
+  {
+   "id": "d02",
+   "in": 2205.5,
+   "out": 2215.0,
+   "chapter": {
+    "text": "Peta baru dibuka",
+    "num": "ENTRY 01",
+    "d": 9.5
+   },
+   "captions": [
+    {
+     "t": 2210.68,
+     "e": 2213.26,
+     "text": "Scrubbit! Ya doh, Scrubbit dia!",
+     "hl": [
+      "SCRUBBIT!"
+     ]
+    },
+    {
+     "t": 2213.26,
+     "e": 2214.66,
+     "text": "Sumpah lah!",
+     "hl": []
+    }
+   ],
+   "card": {
+    "at": 2206.6,
+    "kicker": "Lokasi baru",
+    "name": "Whisperwake Isles",
+    "desc": "Rosy Mirelands · Wildwater Gorge · Goodreach Falls",
+    "icon": "W"
+   },
+   "zooms": [
+    {
+     "at": 2206.0,
+     "s": 1.35,
+     "d": 2.5,
+     "ox": 40,
+     "oy": 45,
+     "ease": "power2.inOut"
+    },
+    {
+     "at": 2211.0,
+     "s": 1.0,
+     "d": 1.2,
+     "ox": 50,
+     "oy": 50,
+     "ease": "power2.inOut"
+    }
+   ],
+   "sfx": [
+    {
+     "at": 2206.7,
+     "name": "notification",
+     "vol": 0.3
+    }
+   ]
+  },
+  {
+   "id": "d03",
+   "in": 903.5,
+   "out": 913.0,
+   "chapter": {
+    "text": "Lumin Amber dikesan",
+    "num": "ENTRY 02",
+    "d": 9.5
+   },
+   "captions": [
+    {
+     "t": 904.43,
+     "e": 906.63,
+     "text": "Mira tengah cari ni...",
+     "hl": []
+    },
+    {
+     "t": 906.63,
+     "e": 908.47,
+     "text": "Wah, dia Lumin Amber!",
+     "hl": [
+      "LUMIN",
+      "AMBER!"
+     ]
+    }
+   ],
+   "card": {
+    "at": 906.7,
+    "kicker": "Item penting",
+    "name": "Lumin Amber",
+    "desc": "Bloom · Glimmer Coast — kumpul 100 di map baru",
+    "icon": "L"
+   },
+   "zooms": [
+    {
+     "at": 904.0,
+     "s": 1.3,
+     "d": 1.0,
+     "ox": 50,
+     "oy": 25,
+     "ease": "power2.inOut"
+    },
+    {
+     "at": 909.5,
+     "s": 1.0,
+     "d": 0.6,
+     "ox": 50,
+     "oy": 50
+    }
+   ],
+   "sfx": [
+    {
+     "at": 906.7,
+     "name": "sparkle",
+     "vol": 0.35
+    }
+   ]
+  },
+  {
+   "id": "d04",
+   "in": 1901.0,
+   "out": 1915.7,
+   "chapter": {
+    "text": "Misteri Pouchwisp",
+    "num": "ENTRY 03",
+    "d": 14.7
+   },
+   "captions": [
+    {
+     "t": 1901.25,
+     "e": 1903.29,
+     "text": "Dia dekat sini.",
+     "hl": []
+    },
+    {
+     "t": 1904.05,
+     "e": 1906.15,
+     "text": "Dia dekat yang siling-siling tu.",
+     "hl": []
+    },
+    {
+     "t": 1906.15,
+     "e": 1907.25,
+     "text": "Mungkin dia berubah bentuk.",
+     "hl": [
+      "BERUBAH"
+     ]
+    },
+    {
+     "t": 1908.87,
+     "e": 1911.11,
+     "text": "Mira rasa tu evo dia!",
+     "hl": [
+      "EVO"
+     ]
+    },
+    {
+     "t": 1913.89,
+     "e": 1915.67,
+     "text": "Kan betul!",
+     "hl": []
+    }
+   ],
+   "card": {
+    "at": 1907.0,
+    "kicker": "Teori Mira",
+    "name": "Pouchwisp",
+    "desc": "Basic Form — rupa-rupanya ada evolusi",
+    "icon": "P",
+    "stamp": "EVO!"
+   },
+   "zooms": [
+    {
+     "at": 1902.5,
+     "s": 1.25,
+     "d": 1.0,
+     "ox": 50,
+     "oy": 50,
+     "ease": "power2.inOut"
+    },
+    {
+     "at": 1909.0,
+     "s": 1.0,
+     "d": 0.6,
+     "ox": 50,
+     "oy": 50
+    }
+   ],
+   "sfx": [
+    {
+     "at": 1907.0,
+     "name": "pop",
+     "vol": 0.3
+    },
+    {
+     "at": 1907.5,
+     "name": "ping",
+     "vol": 0.3
+    }
+   ]
+  },
+  {
+   "id": "d05",
+   "in": 2262.0,
+   "out": 2268.5,
+   "chapter": {
+    "text": "Scrubbit boleh terbang!",
+    "num": "ENTRY 04",
+    "d": 16.4
+   },
+   "captions": [
+    {
+     "t": 2262.13,
+     "e": 2263.93,
+     "text": "Lah, dia boleh terbang!",
+     "hl": [
+      "TERBANG!"
+     ]
+    },
+    {
+     "t": 2265.88,
+     "e": 2267.62,
+     "text": "Ya Allah...",
+     "hl": []
+    }
+   ],
+   "card": {
+    "at": 2262.8,
+    "kicker": "Perangai Aniimo",
+    "name": "Scrubbit terbang",
+    "desc": "Muncul waktu hujan · susah ditangkap",
+    "icon": "S"
+   },
+   "zooms": [
+    {
+     "at": 2262.2,
+     "s": 1.35,
+     "d": 0.4,
+     "ox": 60,
+     "oy": 40
+    },
+    {
+     "at": 2266.0,
+     "s": 1.0,
+     "d": 0.8,
+     "ox": 50,
+     "oy": 50
+    }
+   ],
+   "sfx": [
+    {
+     "at": 2262.2,
+     "name": "whoosh-short",
+     "vol": 0.3
+    }
+   ]
+  },
+  {
+   "id": "d05b",
+   "in": 2273.4,
+   "out": 2278.1,
+   "cut": "hard",
+   "captions": [
+    {
+     "t": 2273.53,
+     "e": 2275.87,
+     "text": "Kau boleh berjalan-jalan pula!",
+     "hl": []
+    },
+    {
+     "t": 2276.31,
+     "e": 2278.05,
+     "text": "Kau tahu tak kat situ ada buaya?",
+     "hl": [
+      "BUAYA?"
+     ]
+    }
+   ],
+   "zooms": [
+    {
+     "at": 2276.3,
+     "s": 1.3,
+     "d": 0.4,
+     "ox": 50,
+     "oy": 50
+    }
+   ]
+  },
+  {
+   "id": "d05c",
+   "in": 2290.8,
+   "out": 2296.0,
+   "cut": "hard",
+   "captions": [
+    {
+     "t": 2290.92,
+     "e": 2292.74,
+     "text": "Ya Allah, susahnya nak tangkap kau ni!",
+     "hl": []
+    },
+    {
+     "t": 2292.74,
+     "e": 2294.38,
+     "text": "Banyak dugaan.",
+     "hl": []
+    },
+    {
+     "t": 2294.96,
+     "e": 2295.84,
+     "text": "Lari, Scrubbit!",
+     "hl": []
+    }
+   ],
+   "zooms": [
+    {
+     "at": 2291.0,
+     "s": 1.2,
+     "d": 0.5,
+     "ox": 50,
+     "oy": 50
+    }
+   ]
+  },
+  {
+   "id": "d06",
+   "in": 2870.5,
+   "out": 2879.5,
+   "chapter": {
+    "text": "Princess Parade",
+    "num": "ENTRY 05",
+    "d": 9.0
+   },
+   "captions": [
+    {
+     "t": 2871.33,
+     "e": 2871.69,
+     "text": "Sugarslime!",
+     "hl": [
+      "SUGARSLIME!"
+     ]
+    },
+    {
+     "t": 2873.29,
+     "e": 2874.73,
+     "text": "Hei, Sugarslime!",
+     "hl": [
+      "SUGARSLIME!"
+     ]
+    },
+    {
+     "t": 2876.17,
+     "e": 2877.25,
+     "text": "Jangan jatuh!",
+     "hl": []
+    },
+    {
+     "t": 2877.25,
+     "e": 2878.99,
+     "text": "Wait, sikit lagi. Mantap!",
+     "hl": [
+      "MANTAP!"
+     ]
+    }
+   ],
+   "card": {
+    "at": 2871.2,
+    "kicker": "Lumin Collection",
+    "name": "Princess Parade",
+    "desc": "Rosy Mirelands · kumpul tenaga Lumin Amber",
+    "icon": "R"
+   },
+   "zooms": [
+    {
+     "at": 2871.0,
+     "s": 1.25,
+     "d": 1.0,
+     "ox": 50,
+     "oy": 30,
+     "ease": "power2.inOut"
+    },
+    {
+     "at": 2877.3,
+     "s": 1.0,
+     "d": 0.6,
+     "ox": 50,
+     "oy": 50
+    }
+   ],
+   "sfx": [
+    {
+     "at": 2878.0,
+     "name": "chime",
+     "vol": 0.25
+    }
+   ]
+  },
+  {
+   "id": "d07",
+   "in": 5313.5,
+   "out": 5322.5,
+   "chapter": {
+    "text": "Aniimo pandai surfing",
+    "num": "ENTRY 06",
+    "d": 18.0
+   },
+   "captions": [
+    {
+     "t": 5313.91,
+     "e": 5316.55,
+     "text": "Weh, dia tengah surfing tu dekat sana!",
+     "hl": [
+      "SURFING"
+     ]
+    },
+    {
+     "t": 5318.53,
+     "e": 5319.17,
+     "text": "Wah!",
+     "hl": []
+    },
+    {
+     "t": 5319.17,
+     "e": 5321.79,
+     "text": "Dia tengah surfing guys, mantap tu!",
+     "hl": [
+      "SURFING"
+     ]
+    }
+   ],
+   "card": {
+    "at": 5314.5,
+    "kicker": "Perangai baru",
+    "name": "Aniimo surfing!",
+    "desc": "Meluncur atas air di kawasan air terjun",
+    "icon": "~"
+   },
+   "zooms": [
+    {
+     "at": 5314.0,
+     "s": 1.4,
+     "d": 1.2,
+     "ox": 55,
+     "oy": 50,
+     "ease": "power2.inOut"
+    },
+    {
+     "at": 5320.0,
+     "s": 1.0,
+     "d": 0.8,
+     "ox": 50,
+     "oy": 50
+    }
+   ],
+   "sfx": [
+    {
+     "at": 5314.5,
+     "name": "whoosh",
+     "vol": 0.25
+    }
+   ]
+  },
+  {
+   "id": "d07b",
+   "in": 5416.0,
+   "out": 5425.0,
+   "cut": "hard",
+   "captions": [
+    {
+     "t": 5420.76,
+     "e": 5422.21,
+     "text": "Eh, diorang surfing doh!",
+     "hl": [
+      "SURFING"
+     ]
+    }
+   ],
+   "zooms": [
+    {
+     "at": 5416.5,
+     "s": 1.3,
+     "d": 1.5,
+     "ox": 50,
+     "oy": 55,
+     "ease": "power2.inOut"
+    }
+   ],
+   "stickers": [
+    {
+     "at": 5419.0,
+     "text": "Jumpa lagi satu!",
+     "x": 500,
+     "y": 1000,
+     "d": 2.4,
+     "cls": "teal",
+     "rot": -6
+    }
+   ]
+  },
+  {
+   "id": "d08",
+   "in": 5484.0,
+   "out": 5495.0,
+   "chapter": {
+    "text": "Jabster vs Elder Jabster",
+    "num": "ENTRY 07",
+    "d": 11.0
+   },
+   "captions": [
+    {
+     "t": 5485.36,
+     "e": 5486.2,
+     "text": "Oh, tak boleh juga.",
+     "hl": []
+    },
+    {
+     "t": 5489.31,
+     "e": 5492.17,
+     "text": "Oh, dia nak Elder Jabster je!",
+     "hl": [
+      "ELDER",
+      "JABSTER"
+     ]
+    }
+   ],
+   "card": {
+    "at": 5489.4,
+    "kicker": "Info quest",
+    "name": "Jabster",
+    "desc": "Rainfall Form · quest perlukan Elder Jabster",
+    "icon": "J",
+    "stamp": "TIP!"
+   },
+   "zooms": [
+    {
+     "at": 5484.5,
+     "s": 1.3,
+     "d": 1.0,
+     "ox": 45,
+     "oy": 60,
+     "ease": "power2.inOut"
+    },
+    {
+     "at": 5490.5,
+     "s": 1.0,
+     "d": 0.6,
+     "ox": 50,
+     "oy": 50
+    }
+   ],
+   "sfx": [
+    {
+     "at": 5489.4,
+     "name": "notification",
+     "vol": 0.3
+    }
+   ]
+  }
+ ]
+}

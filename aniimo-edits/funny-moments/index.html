@@ -1,61 +1,310 @@
 <!doctype html>
-<html lang="en" data-resolution="portrait">
+<html lang="ms" data-resolution="portrait">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1080, height=1920" />
+    <title>Mira vs Aniimo: Funny Moments</title>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
     <style>
-      /* Placeholders: replace all three with the film's own palette and display face. */
-      :root {
-        --ground: #000;
-        --ink: #ffffff;
-        --font-display: sans-serif;
-      }
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      html,
-      body {
-        margin: 0;
-        width: 1080px;
-        height: 1920px;
-        overflow: hidden;
-        background: var(--ground);
-      }
-      #root {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: var(--font-display);
-      }
-      #title {
-        color: var(--ink);
-        font-size: 72px;
-        font-weight: 600;
-        letter-spacing: -0.03em;
-      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #000; }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+
+:root{--bg:#FFD21F;--ink:#111;--hot:#FF3B5C;--accent:#1FD1FF;--paper:#fff}
+#bg{position:absolute;inset:0;background:
+  radial-gradient(circle at 20% 15%,rgba(255,255,255,.55) 0 180px,transparent 181px),
+  radial-gradient(rgba(0,0,0,.16) 3px,transparent 3.5px) 0 0/28px 28px,var(--bg)}
+#bg-rays{position:absolute;left:-540px;top:-540px;width:2160px;height:2160px;opacity:.18;
+  background:repeating-conic-gradient(from 0deg at 50% 50%,#fff 0 9deg,transparent 9deg 18deg)}
+.frame{box-shadow:16px 16px 0 #111}
+.chapter{position:absolute;left:0;right:0;top:200px;display:flex;justify-content:center}
+.chapter .inner{background:#111;color:#fff;font:900 54px/1.05 Montserrat;padding:22px 36px;border-radius:14px;
+  text-transform:uppercase;letter-spacing:-.01em;max-width:960px;text-align:center;box-shadow:8px 8px 0 var(--hot)}
+.chapter .num{display:block;font:800 30px/1 Montserrat;color:var(--bg);margin-bottom:10px;letter-spacing:.08em}
+.sticker{position:absolute;font:900 74px/1 Montserrat;color:#fff;-webkit-text-stroke:5px #111;paint-order:stroke fill;
+  text-transform:uppercase;white-space:nowrap}
+.sticker .in{display:inline-block;padding:18px 30px;background:var(--hot);border:6px solid #111;border-radius:20px;box-shadow:8px 8px 0 #111}
+.sticker.blue .in{background:var(--accent)}
+.sticker.white .in{background:#fff;color:#111;-webkit-text-stroke:0}
+.hook{position:absolute;left:0;right:0;top:190px;text-align:center}
+.hook .l1{display:inline-block;font:900 92px/1 Montserrat;color:#fff;-webkit-text-stroke:7px #111;paint-order:stroke fill;text-transform:uppercase}
+.hook .l2{display:block;margin-top:14px;font:800 40px/1.1 Montserrat;color:#111}
+.wipe{position:absolute;inset:0;background:#111}
+.wipe .stripe{position:absolute;left:0;right:0;height:640px;background:var(--hot)}
+.outro{position:absolute;inset:0;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:30px}
+.outro .big{font:900 120px/0.95 Montserrat;color:#fff;-webkit-text-stroke:8px #111;paint-order:stroke fill;text-align:center;text-transform:uppercase}
+.outro .small{font:800 44px/1.2 Montserrat;color:#111;text-align:center}
+
     </style>
   </head>
   <body>
-    <div
-      id="root"
-      data-composition-id="main"
-      data-start="0"
-      data-duration="10"
-      data-width="1080"
-      data-height="1920"
-    >
-      <h1 id="title" class="clip" data-start="0" data-duration="10" data-track-index="0">Title</h1>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="111.5" data-width="1080" data-height="1920">
+      <div id="bg"></div><div id="bg-rays"></div>
+<div id="deco" style="position:absolute;left:-60px;right:-60px;top:1440px;height:330px" data-layout-ignore><div id="tape1" style="position:absolute;left:0;top:0;width:4200px;height:110px;background:#111;color:#FFD21F;font:900 64px/110px Montserrat;white-space:nowrap">HAHAHA &#9733; WOI! &#9733; TAK NAK! &#9733; HAHAHA &#9733; WOI! &#9733; TAK NAK! &#9733; HAHAHA &#9733; WOI! &#9733; TAK NAK! &#9733; HAHAHA &#9733; WOI! &#9733; TAK NAK! &#9733; HAHAHA &#9733; WOI! &#9733; TAK NAK! &#9733; HAHAHA &#9733; WOI! &#9733; TAK NAK! &#9733; HAHAHA &#9733; WOI! &#9733; TAK NAK! &#9733; HAHAHA &#9733; WOI! &#9733; TAK NAK! &#9733; </div><div id="tape2" style="position:absolute;left:0;top:150px;width:4200px;height:96px;background:#FF3B5C;color:#fff;font:900 54px/96px Montserrat;white-space:nowrap">KESABARAN DIUJI &#9679; MIRA VS ANIIMO &#9679; KESABARAN DIUJI &#9679; MIRA VS ANIIMO &#9679; KESABARAN DIUJI &#9679; MIRA VS ANIIMO &#9679; KESABARAN DIUJI &#9679; MIRA VS ANIIMO &#9679; KESABARAN DIUJI &#9679; MIRA VS ANIIMO &#9679; KESABARAN DIUJI &#9679; MIRA VS ANIIMO &#9679; KESABARAN DIUJI &#9679; MIRA VS ANIIMO &#9679; KESABARAN DIUJI &#9679; MIRA VS ANIIMO &#9679; </div></div>
+<div id="frame-rot" style="position:absolute;left:0px;top:430px;width:1080px;height:760px"><div id="frame-shake" style="position:absolute;inset:0"><div class="frame" data-layout-allow-overflow style="position:absolute;inset:0;overflow:hidden;border-radius:0px;outline:none;border:10px solid #111;background:#000"><div class="zw" id="zw-f01" style="position:absolute;left:-135px;top:0px;width:1350px;height:760px"><video id="v-f01" class="clip" src="assets/clips/f01.mp4" data-start="0.0" data-duration="8.8" data-media-start="0" data-track-index="0" data-has-audio="true" data-volume="1" playsinline style="position:absolute;left:0;top:0;width:1350px;height:760px;object-fit:cover"></video></div><div class="zw" id="zw-f02" style="position:absolute;left:-135px;top:0px;width:1350px;height:760px"><video id="v-f02" class="clip" src="assets/clips/f02.mp4" data-start="8.8" data-duration="6.7" data-media-start="0" data-track-index="0" data-has-audio="true" data-volume="1" playsinline style="position:absolute;left:0;top:0;width:1350px;height:760px;object-fit:cover"></video></div><div class="zw" id="zw-f03" style="position:absolute;left:-135px;top:0px;width:1350px;height:760px"><video id="v-f03" class="clip" src="assets/clips/f03.mp4" data-start="15.5" data-duration="11.0" data-media-start="0" data-track-index="0" data-has-audio="true" data-volume="1" playsinline style="position:absolute;left:0;top:0;width:1350px;height:760px;object-fit:cover"></video></div><div class="zw" id="zw-f04" style="position:absolute;left:-135px;top:0px;width:1350px;height:760px"><video id="v-f04" class="clip" src="assets/clips/f04.mp4" data-start="26.5" data-duration="11.6" data-media-start="0" data-track-index="0" data-has-audio="true" data-volume="1" playsinline style="position:absolute;left:0;top:0;width:1350px;height:760px;object-fit:cover"></video></div><div class="zw" id="zw-f05" style="position:absolute;left:-135px;top:0px;width:1350px;height:760px"><video id="v-f05" class="clip" src="assets/clips/f05.mp4" data-start="38.1" data-duration="7.4" data-media-start="0" data-track-index="0" data-has-audio="true" data-volume="1" playsinline style="position:absolute;left:0;top:0;width:1350px;height:760px;object-fit:cover"></video></div><div class="zw" id="zw-f06" style="position:absolute;left:-135px;top:0px;width:1350px;height:760px"><video id="v-f06" class="clip" src="assets/clips/f06.mp4" data-start="45.5" data-duration="10.6" data-media-start="0" data-track-index="0" data-has-audio="true" data-volume="1" playsinline style="position:absolute;left:0;top:0;width:1350px;height:760px;object-fit:cover"></video></div><div class="zw" id="zw-f06b" style="position:absolute;left:-135px;top:0px;width:1350px;height:760px"><video id="v-f06b" class="clip" src="assets/clips/f06b.mp4" data-start="56.1" data-duration="3.6" data-media-start="0" data-track-index="0" data-has-audio="true" data-volume="1" playsinline style="position:absolute;left:0;top:0;width:1350px;height:760px;object-fit:cover"></video></div><div class="zw" id="zw-f07" style="position:absolute;left:-135px;top:0px;width:1350px;height:760px"><video id="v-f07" class="clip" src="assets/clips/f07.mp4" data-start="59.7" data-duration="12.4" data-media-start="0" data-track-index="0" data-has-audio="true" data-volume="1" playsinline style="position:absolute;left:0;top:0;width:1350px;height:760px;object-fit:cover"></video></div><div class="zw" id="zw-f07b" style="position:absolute;left:-135px;top:0px;width:1350px;height:760px"><video id="v-f07b" class="clip" src="assets/clips/f07b.mp4" data-start="72.1" data-duration="2.2" data-media-start="0" data-track-index="0" data-has-audio="true" data-volume="1" playsinline style="position:absolute;left:0;top:0;width:1350px;height:760px;object-fit:cover"></video></div><div class="zw" id="zw-f08" style="position:absolute;left:-135px;top:0px;width:1350px;height:760px"><video id="v-f08" class="clip" src="assets/clips/f08.mp4" data-start="74.3" data-duration="1.8" data-media-start="0" data-track-index="0" data-has-audio="true" data-volume="1" playsinline style="position:absolute;left:0;top:0;width:1350px;height:760px;object-fit:cover"></video></div><div class="zw" id="zw-f08b" style="position:absolute;left:-135px;top:0px;width:1350px;height:760px"><video id="v-f08b" class="clip" src="assets/clips/f08b.mp4" data-start="76.1" data-duration="2.8" data-media-start="0" data-track-index="0" data-has-audio="true" data-volume="1" playsinline style="position:absolute;left:0;top:0;width:1350px;height:760px;object-fit:cover"></video></div><div class="zw" id="zw-f08c" style="position:absolute;left:-135px;top:0px;width:1350px;height:760px"><video id="v-f08c" class="clip" src="assets/clips/f08c.mp4" data-start="78.9" data-duration="5.2" data-media-start="0" data-track-index="0" data-has-audio="true" data-volume="1" playsinline style="position:absolute;left:0;top:0;width:1350px;height:760px;object-fit:cover"></video></div><div class="zw" id="zw-f09" style="position:absolute;left:-135px;top:0px;width:1350px;height:760px"><video id="v-f09" class="clip" src="assets/clips/f09.mp4" data-start="84.1" data-duration="5.5" data-media-start="0" data-track-index="0" data-has-audio="true" data-volume="1" playsinline style="position:absolute;left:0;top:0;width:1350px;height:760px;object-fit:cover"></video></div><div class="zw" id="zw-f10" style="position:absolute;left:-135px;top:0px;width:1350px;height:760px"><video id="v-f10" class="clip" src="assets/clips/f10.mp4" data-start="89.6" data-duration="7.3" data-media-start="0" data-track-index="0" data-has-audio="true" data-volume="1" playsinline style="position:absolute;left:0;top:0;width:1350px;height:760px;object-fit:cover"></video></div><div class="zw" id="zw-f10b" style="position:absolute;left:-135px;top:0px;width:1350px;height:760px"><video id="v-f10b" class="clip" src="assets/clips/f10b.mp4" data-start="96.9" data-duration="6.6" data-media-start="0" data-track-index="0" data-has-audio="true" data-volume="1" playsinline style="position:absolute;left:0;top:0;width:1350px;height:760px;object-fit:cover"></video></div><div class="zw" id="zw-f11" style="position:absolute;left:-135px;top:0px;width:1350px;height:760px"><video id="v-f11" class="clip" src="assets/clips/f11.mp4" data-start="103.5" data-duration="5.0" data-media-start="0" data-track-index="0" data-has-audio="true" data-volume="1" playsinline style="position:absolute;left:0;top:0;width:1350px;height:760px;object-fit:cover"></video></div></div></div></div>
+<div id="ch-f02" class="clip chapter" data-start="8.8" data-duration="2.4" data-track-index="2" style="z-index:11"><div class="inner" id="ch-f02-i"><span class="num">MOMEN #1</span>Tak nak sawi!</div></div>
+<div id="ch-f03" class="clip chapter" data-start="15.5" data-duration="2.6" data-track-index="2" style="z-index:12"><div class="inner" id="ch-f03-i"><span class="num">MOMEN #2</span>Habis duit!</div></div>
+<div id="ch-f04" class="clip chapter" data-start="26.5" data-duration="2.6" data-track-index="2" style="z-index:13"><div class="inner" id="ch-f04-i"><span class="num">MOMEN #3</span>Mana akak kedai?</div></div>
+<div id="ch-f05" class="clip chapter" data-start="38.1" data-duration="2.4" data-track-index="2" style="z-index:14"><div class="inner" id="ch-f05-i"><span class="num">MOMEN #4</span>Ada yang kena debik</div></div>
+<div id="ch-f06" class="clip chapter" data-start="45.5" data-duration="2.4" data-track-index="2" style="z-index:15"><div class="inner" id="ch-f06-i"><span class="num">MOMEN #5</span>Dah jumpa kau!</div></div>
+<div id="ch-f07" class="clip chapter" data-start="59.7" data-duration="2.4" data-track-index="2" style="z-index:16"><div class="inner" id="ch-f07-i"><span class="num">MOMEN #6</span>Nampak ni?!</div></div>
+<div id="ch-f08" class="clip chapter" data-start="74.3" data-duration="2.6" data-track-index="2" style="z-index:17"><div class="inner" id="ch-f08-i"><span class="num">MOMEN #7</span>Mira dah penat...</div></div>
+<div id="ch-f09" class="clip chapter" data-start="84.1" data-duration="2.2" data-track-index="2" style="z-index:18"><div class="inner" id="ch-f09-i"><span class="num">MOMEN #8</span>Terkejut!</div></div>
+<div id="ch-f10" class="clip chapter" data-start="89.6" data-duration="2.6" data-track-index="2" style="z-index:19"><div class="inner" id="ch-f10-i"><span class="num">MOMEN #9</span>Ujian kesabaran</div></div>
+<div id="sk-f01-0" class="clip sticker " data-start="5.7" data-duration="2.0" data-track-index="5" style="left:150px;top:980px;z-index:20"><span class="in" id="sk-f01-0-i">SERANGAN BONTOT!</span></div>
+<div id="sk-f02-0" class="clip sticker blue" data-start="13.3" data-duration="1.8" data-track-index="5" style="left:540px;top:470px;z-index:21"><span class="in" id="sk-f02-0-i">TAK NAK!</span></div>
+<div id="sk-f03-0" class="clip sticker white" data-start="21.6" data-duration="2.2" data-track-index="5" style="left:120px;top:960px;z-index:22"><span class="in" id="sk-f03-0-i">DOMPET: KOSONG</span></div>
+<div id="sk-f04-0" class="clip sticker blue" data-start="31.3" data-duration="1.8" data-track-index="5" style="left:440px;top:1000px;z-index:23"><span class="in" id="sk-f04-0-i">STAF BARU?!</span></div>
+<div id="sk-f06-0" class="clip sticker " data-start="52.1" data-duration="2.0" data-track-index="5" style="left:110px;top:990px;z-index:24"><span class="in" id="sk-f06-0-i">LAMA TAU DAH CARI!</span></div>
+<div id="sk-f07-0" class="clip sticker white" data-start="69.4" data-duration="2.0" data-track-index="5" style="left:420px;top:980px;z-index:25"><span class="in" id="sk-f07-0-i">NAMPAK x10</span></div>
+<div id="sk-f08c-0" class="clip sticker blue" data-start="79.8" data-duration="2.0" data-track-index="5" style="left:430px;top:1000px;z-index:26"><span class="in" id="sk-f08c-0-i">MOOD: REDA</span></div>
+<div id="sk-f09-0" class="clip sticker " data-start="84.4" data-duration="1.6" data-track-index="5" style="left:760px;top:470px;z-index:27"><span class="in" id="sk-f09-0-i">WOI!</span></div>
+<div id="sk-f10b-0" class="clip sticker white" data-start="101.7" data-duration="1.7" data-track-index="5" style="left:140px;top:990px;z-index:28"><span class="in" id="sk-f10b-0-i">LEVEL SABAR: MAX</span></div>
+<div id="sk-f11-0" class="clip sticker blue" data-start="107.4" data-duration="1.1" data-track-index="5" style="left:820px;top:460px;z-index:29"><span class="in" id="sk-f11-0-i">?!</span></div>
+<div id="tr-1" class="clip wipe" data-start="8.62" data-duration="0.4" data-track-index="6" style="background:transparent;z-index:900"><div class="stripe" id="tr-1-a" style="top:0;background:#111"></div><div class="stripe" id="tr-1-b" style="top:640px"></div><div class="stripe" id="tr-1-c" style="top:1280px;background:#1FD1FF"></div></div>
+<div id="tr-2" class="clip wipe" data-start="15.32" data-duration="0.4" data-track-index="6" style="background:transparent;z-index:900"><div class="stripe" id="tr-2-a" style="top:0;background:#111"></div><div class="stripe" id="tr-2-b" style="top:640px"></div><div class="stripe" id="tr-2-c" style="top:1280px;background:#1FD1FF"></div></div>
+<div id="tr-3" class="clip wipe" data-start="26.32" data-duration="0.4" data-track-index="6" style="background:transparent;z-index:900"><div class="stripe" id="tr-3-a" style="top:0;background:#111"></div><div class="stripe" id="tr-3-b" style="top:640px"></div><div class="stripe" id="tr-3-c" style="top:1280px;background:#1FD1FF"></div></div>
+<div id="tr-4" class="clip wipe" data-start="37.92" data-duration="0.4" data-track-index="6" style="background:transparent;z-index:900"><div class="stripe" id="tr-4-a" style="top:0;background:#111"></div><div class="stripe" id="tr-4-b" style="top:640px"></div><div class="stripe" id="tr-4-c" style="top:1280px;background:#1FD1FF"></div></div>
+<div id="tr-5" class="clip wipe" data-start="45.32" data-duration="0.4" data-track-index="6" style="background:transparent;z-index:900"><div class="stripe" id="tr-5-a" style="top:0;background:#111"></div><div class="stripe" id="tr-5-b" style="top:640px"></div><div class="stripe" id="tr-5-c" style="top:1280px;background:#1FD1FF"></div></div>
+<div id="tr-7" class="clip wipe" data-start="59.52" data-duration="0.4" data-track-index="6" style="background:transparent;z-index:900"><div class="stripe" id="tr-7-a" style="top:0;background:#111"></div><div class="stripe" id="tr-7-b" style="top:640px"></div><div class="stripe" id="tr-7-c" style="top:1280px;background:#1FD1FF"></div></div>
+<div id="tr-9" class="clip wipe" data-start="74.12" data-duration="0.4" data-track-index="6" style="background:transparent;z-index:900"><div class="stripe" id="tr-9-a" style="top:0;background:#111"></div><div class="stripe" id="tr-9-b" style="top:640px"></div><div class="stripe" id="tr-9-c" style="top:1280px;background:#1FD1FF"></div></div>
+<div id="tr-12" class="clip wipe" data-start="83.92" data-duration="0.4" data-track-index="6" style="background:transparent;z-index:900"><div class="stripe" id="tr-12-a" style="top:0;background:#111"></div><div class="stripe" id="tr-12-b" style="top:640px"></div><div class="stripe" id="tr-12-c" style="top:1280px;background:#1FD1FF"></div></div>
+<div id="tr-13" class="clip wipe" data-start="89.42" data-duration="0.4" data-track-index="6" style="background:transparent;z-index:900"><div class="stripe" id="tr-13-a" style="top:0;background:#111"></div><div class="stripe" id="tr-13-b" style="top:640px"></div><div class="stripe" id="tr-13-c" style="top:1280px;background:#1FD1FF"></div></div>
+<div id="tr-15" class="clip wipe" data-start="103.32" data-duration="0.4" data-track-index="6" style="background:transparent;z-index:900"><div class="stripe" id="tr-15-a" style="top:0;background:#111"></div><div class="stripe" id="tr-15-b" style="top:640px"></div><div class="stripe" id="tr-15-c" style="top:1280px;background:#1FD1FF"></div></div>
+<div id="hook" class="clip hook" data-start="0" data-duration="2.3" data-track-index="2" style="z-index:30"><span class="l2" id="hook-2">MIRA VS ANIIMO MAP BARU</span><span class="l1" id="hook-1">KESABARAN DIUJI</span></div>
+<div id="outro" class="clip outro" data-start="108.5" data-duration="3.0" data-track-index="7" style="z-index:950"><div class="small" id="outro-s">Follow untuk momen kelakar seterusnya</div><div class="big" id="outro-b">NAK<br>PART 2?</div></div>
+      <div id="captions" data-composition-id="captions" data-composition-src="compositions/captions.html" data-start="0"
+        data-duration="111.5" data-track-index="8" data-track-kind="captions" data-width="1080" data-height="1920" style="position:absolute;inset:0;z-index:800"></div>
+      <audio id="sfx-1" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="1.7" data-track-index="20" data-volume="0.4"></audio>
+<audio id="sfx-2" class="clip" src="assets/sfx/impact-bass-1.mp3" data-start="5.3" data-track-index="20" data-volume="0.5"></audio>
+<audio id="sfx-3" class="clip" src="assets/sfx/pop.mp3" data-start="9.1" data-track-index="20" data-volume="0.4"></audio>
+<audio id="sfx-4" class="clip" src="assets/sfx/error.mp3" data-start="13.3" data-track-index="20" data-volume="0.3"></audio>
+<audio id="sfx-5" class="clip" src="assets/sfx/error.mp3" data-start="21.4" data-track-index="20" data-volume="0.35"></audio>
+<audio id="sfx-6" class="clip" src="assets/sfx/click.mp3" data-start="24.3" data-track-index="20" data-volume="0.4"></audio>
+<audio id="sfx-7" class="clip" src="assets/sfx/glitch-1.mp3" data-start="31.2" data-track-index="20" data-volume="0.3"></audio>
+<audio id="sfx-8" class="clip" src="assets/sfx/impact-bass-2.mp3" data-start="44.0" data-track-index="20" data-volume="0.35"></audio>
+<audio id="sfx-9" class="clip" src="assets/sfx/pop.mp3" data-start="47.2" data-track-index="20" data-volume="0.4"></audio>
+<audio id="sfx-10" class="clip" src="assets/sfx/impact-bass-1.mp3" data-start="48.4" data-track-index="20" data-volume="0.35"></audio>
+<audio id="sfx-11" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="56.2" data-track-index="20" data-volume="0.3"></audio>
+<audio id="sfx-12" class="clip" src="assets/sfx/pop.mp3" data-start="63.0" data-track-index="20" data-volume="0.3"></audio>
+<audio id="sfx-13" class="clip" src="assets/sfx/pop.mp3" data-start="64.6" data-track-index="20" data-volume="0.3"></audio>
+<audio id="sfx-14" class="clip" src="assets/sfx/pop.mp3" data-start="69.3" data-track-index="20" data-volume="0.35"></audio>
+<audio id="sfx-15" class="clip" src="assets/sfx/impact-bass-2.mp3" data-start="76.2" data-track-index="20" data-volume="0.3"></audio>
+<audio id="sfx-16" class="clip" src="assets/sfx/chime.mp3" data-start="79.8" data-track-index="20" data-volume="0.25"></audio>
+<audio id="sfx-17" class="clip" src="assets/sfx/glitch-2.mp3" data-start="84.2" data-track-index="20" data-volume="0.3"></audio>
+<audio id="sfx-18" class="clip" src="assets/sfx/sparkle.mp3" data-start="101.6" data-track-index="20" data-volume="0.35"></audio>
+<audio id="sfx-19" class="clip" src="assets/sfx/impact-bass-1.mp3" data-start="107.5" data-track-index="20" data-volume="0.4"></audio>
+<audio id="sfx-20" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="8.6" data-track-index="21" data-volume="0.3"></audio>
+<audio id="sfx-21" class="clip" src="assets/sfx/whoosh.mp3" data-start="15.3" data-track-index="21" data-volume="0.3"></audio>
+<audio id="sfx-22" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="26.3" data-track-index="21" data-volume="0.3"></audio>
+<audio id="sfx-23" class="clip" src="assets/sfx/whoosh.mp3" data-start="37.9" data-track-index="21" data-volume="0.3"></audio>
+<audio id="sfx-24" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="45.3" data-track-index="21" data-volume="0.3"></audio>
+<audio id="sfx-25" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="59.5" data-track-index="21" data-volume="0.3"></audio>
+<audio id="sfx-26" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="74.1" data-track-index="21" data-volume="0.3"></audio>
+<audio id="sfx-27" class="clip" src="assets/sfx/whoosh.mp3" data-start="83.9" data-track-index="21" data-volume="0.3"></audio>
+<audio id="sfx-28" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="89.4" data-track-index="21" data-volume="0.3"></audio>
+<audio id="sfx-29" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="103.3" data-track-index="21" data-volume="0.3"></audio>
+<audio id="sfx-30" class="clip" src="assets/sfx/pop.mp3" data-start="108.6" data-track-index="20" data-volume="0.4"></audio>
     </div>
     <script>
       const tl = gsap.timeline({ paused: true });
-      // Example: tl.fromTo("#title", { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.18, ease: "power4.out" }, 0);
+      tl.fromTo("#bg-rays",{rotation:0},{rotation:25,duration:111.5,ease:"none"},0);
+      tl.fromTo("#tape1",{x:0},{x:-1400,duration:111.5,ease:"none"},0);
+      tl.set("#deco",{rotation:-4},0);tl.fromTo("#tape2",{x:-1400},{x:0,duration:111.5,ease:"none"},0);
+      tl.set("#zw-f01",{scale:1,x:0,y:0,transformOrigin:"50% 50%"},0.0);
+      tl.to("#zw-f01",{scale:1.3,transformOrigin:"50% 50%",duration:0.3,ease:"power3.out"},1.7);
+      tl.to("#zw-f01",{scale:1.75,transformOrigin:"50% 50%",duration:0.2,ease:"power3.out"},5.3);
+      tl.to("#zw-f01",{scale:1.0,transformOrigin:"50% 50%",duration:0.4,ease:"power2.inOut"},8.1);
+      tl.to("#frame-shake",{x:-18,y:10,duration:0.04,ease:"none"},5.35);
+      tl.to("#frame-shake",{x:16,y:-12,duration:0.04,ease:"none"},5.39);
+      tl.to("#frame-shake",{x:-12,y:8,duration:0.04,ease:"none"},5.43);
+      tl.to("#frame-shake",{x:10,y:-6,duration:0.04,ease:"none"},5.47);
+      tl.to("#frame-shake",{x:-6,y:4,duration:0.04,ease:"none"},5.51);
+      tl.to("#frame-shake",{x:0,y:0,duration:0.04,ease:"none"},5.55);
+      tl.set("#zw-f02",{scale:1,x:0,y:0,transformOrigin:"50% 50%"},8.8);
+      tl.to("#zw-f02",{scale:1.35,transformOrigin:"50% 50%",duration:0.3,ease:"power3.out"},9.8);
+      tl.to("#zw-f02",{scale:1.6,transformOrigin:"50% 50%",duration:0.2,ease:"power3.out"},14.0);
+      tl.set("#zw-f03",{scale:1,x:0,y:0,transformOrigin:"50% 50%"},15.5);
+      tl.to("#zw-f03",{scale:1.25,transformOrigin:"50% 50%",duration:0.3,ease:"power3.out"},15.7);
+      tl.to("#zw-f03",{scale:1.6,transformOrigin:"50% 50%",duration:0.2,ease:"power3.out"},21.4);
+      tl.to("#zw-f03",{scale:1.0,transformOrigin:"50% 50%",duration:0.4,ease:"power2.inOut"},23.2);
+      tl.to("#frame-shake",{x:-18,y:10,duration:0.04,ease:"none"},21.5);
+      tl.to("#frame-shake",{x:16,y:-12,duration:0.04,ease:"none"},21.54);
+      tl.to("#frame-shake",{x:-12,y:8,duration:0.04,ease:"none"},21.58);
+      tl.to("#frame-shake",{x:10,y:-6,duration:0.04,ease:"none"},21.62);
+      tl.to("#frame-shake",{x:-6,y:4,duration:0.04,ease:"none"},21.66);
+      tl.to("#frame-shake",{x:0,y:0,duration:0.04,ease:"none"},21.7);
+      tl.set("#zw-f04",{scale:1,x:0,y:0,transformOrigin:"50% 50%"},26.5);
+      tl.to("#zw-f04",{scale:1.3,transformOrigin:"50% 50%",duration:0.5,ease:"power3.out"},27.4);
+      tl.to("#zw-f04",{scale:1.55,transformOrigin:"50% 50%",duration:0.2,ease:"power3.out"},31.2);
+      tl.to("#zw-f04",{scale:1.0,transformOrigin:"50% 50%",duration:0.4,ease:"power2.inOut"},32.4);
+      tl.set("#zw-f05",{scale:1,x:0,y:0,transformOrigin:"50% 50%"},38.1);
+      tl.to("#zw-f05",{scale:1.35,transformOrigin:"50% 50%",duration:0.25,ease:"power3.out"},42.3);
+      tl.to("#zw-f05",{scale:1.7,transformOrigin:"50% 50%",duration:0.2,ease:"power3.out"},44.0);
+      tl.to("#frame-shake",{x:-18,y:10,duration:0.04,ease:"none"},44.1);
+      tl.to("#frame-shake",{x:16,y:-12,duration:0.04,ease:"none"},44.14);
+      tl.to("#frame-shake",{x:-12,y:8,duration:0.04,ease:"none"},44.18);
+      tl.to("#frame-shake",{x:10,y:-6,duration:0.04,ease:"none"},44.22);
+      tl.to("#frame-shake",{x:-6,y:4,duration:0.04,ease:"none"},44.26);
+      tl.to("#frame-shake",{x:0,y:0,duration:0.04,ease:"none"},44.3);
+      tl.set("#zw-f06",{scale:1,x:0,y:0,transformOrigin:"50% 50%"},45.5);
+      tl.to("#zw-f06",{scale:1.5,transformOrigin:"50% 50%",duration:0.2,ease:"power3.out"},47.2);
+      tl.to("#zw-f06",{scale:1.2,transformOrigin:"50% 50%",duration:0.4,ease:"power3.out"},50.2);
+      tl.to("#zw-f06",{scale:1.6,transformOrigin:"50% 50%",duration:0.2,ease:"power3.out"},54.4);
+      tl.to("#frame-shake",{x:-18,y:10,duration:0.04,ease:"none"},48.4);
+      tl.to("#frame-shake",{x:16,y:-12,duration:0.04,ease:"none"},48.44);
+      tl.to("#frame-shake",{x:-12,y:8,duration:0.04,ease:"none"},48.48);
+      tl.to("#frame-shake",{x:10,y:-6,duration:0.04,ease:"none"},48.52);
+      tl.to("#frame-shake",{x:-6,y:4,duration:0.04,ease:"none"},48.56);
+      tl.to("#frame-shake",{x:0,y:0,duration:0.04,ease:"none"},48.6);
+      tl.set("#zw-f06b",{scale:1,x:0,y:0,transformOrigin:"50% 50%"},56.1);
+      tl.to("#zw-f06b",{scale:1.4,transformOrigin:"50% 50%",duration:0.2,ease:"power3.out"},56.2);
+      tl.to("#zw-f06b",{scale:1.15,transformOrigin:"50% 50%",duration:0.5,ease:"power3.out"},57.3);
+      tl.set("#zw-f07",{scale:1,x:0,y:0,transformOrigin:"50% 50%"},59.7);
+      tl.to("#zw-f07",{scale:1.15,transformOrigin:"50% 50%",duration:0.15,ease:"power3.out"},63.0);
+      tl.to("#zw-f07",{scale:1.35,transformOrigin:"50% 50%",duration:0.15,ease:"power3.out"},64.6);
+      tl.to("#zw-f07",{scale:1.15,transformOrigin:"50% 50%",duration:0.3,ease:"power3.out"},67.6);
+      tl.to("#zw-f07",{scale:1.7,transformOrigin:"50% 50%",duration:0.15,ease:"power3.out"},69.3);
+      tl.set("#zw-f07b",{scale:1,x:0,y:0,transformOrigin:"50% 50%"},72.1);
+      tl.to("#zw-f07b",{scale:1.8,transformOrigin:"50% 50%",duration:1.6,ease:"power1.inOut"},72.2);
+      tl.set("#zw-f08",{scale:1,x:0,y:0,transformOrigin:"50% 50%"},74.3);
+      tl.to("#zw-f08",{scale:1.2,transformOrigin:"50% 50%",duration:1.8,ease:"none"},74.3);
+      tl.set("#zw-f08b",{scale:1,x:0,y:0,transformOrigin:"50% 50%"},76.1);
+      tl.to("#zw-f08b",{scale:1.45,transformOrigin:"50% 50%",duration:0.2,ease:"power3.out"},76.1);
+      tl.to("#frame-shake",{x:-18,y:10,duration:0.04,ease:"none"},76.3);
+      tl.to("#frame-shake",{x:16,y:-12,duration:0.04,ease:"none"},76.34);
+      tl.to("#frame-shake",{x:-12,y:8,duration:0.04,ease:"none"},76.38);
+      tl.to("#frame-shake",{x:10,y:-6,duration:0.04,ease:"none"},76.42);
+      tl.to("#frame-shake",{x:-6,y:4,duration:0.04,ease:"none"},76.46);
+      tl.to("#frame-shake",{x:0,y:0,duration:0.04,ease:"none"},76.5);
+      tl.set("#zw-f08c",{scale:1,x:0,y:0,transformOrigin:"50% 50%"},78.9);
+      tl.to("#zw-f08c",{scale:1.0,transformOrigin:"50% 50%",duration:0.3,ease:"power2.inOut"},78.9);
+      tl.set("#zw-f09",{scale:1,x:0,y:0,transformOrigin:"50% 50%"},84.1);
+      tl.to("#zw-f09",{scale:1.6,transformOrigin:"50% 50%",duration:0.12,ease:"power3.out"},84.2);
+      tl.to("#zw-f09",{scale:1.1,transformOrigin:"50% 50%",duration:0.5,ease:"power3.out"},86.1);
+      tl.to("#frame-shake",{x:-18,y:10,duration:0.04,ease:"none"},84.3);
+      tl.to("#frame-shake",{x:16,y:-12,duration:0.04,ease:"none"},84.34);
+      tl.to("#frame-shake",{x:-12,y:8,duration:0.04,ease:"none"},84.38);
+      tl.to("#frame-shake",{x:10,y:-6,duration:0.04,ease:"none"},84.42);
+      tl.to("#frame-shake",{x:-6,y:4,duration:0.04,ease:"none"},84.46);
+      tl.to("#frame-shake",{x:0,y:0,duration:0.04,ease:"none"},84.5);
+      tl.set("#zw-f10",{scale:1,x:0,y:0,transformOrigin:"50% 50%"},89.6);
+      tl.to("#zw-f10",{scale:1.25,transformOrigin:"50% 50%",duration:7.0,ease:"none"},89.6);
+      tl.set("#zw-f10b",{scale:1,x:0,y:0,transformOrigin:"50% 50%"},96.9);
+      tl.to("#zw-f10b",{scale:1.0,transformOrigin:"50% 50%",duration:0.3,ease:"power2.inOut"},96.9);
+      tl.to("#zw-f10b",{scale:1.5,transformOrigin:"50% 50%",duration:0.2,ease:"power3.out"},101.6);
+      tl.set("#zw-f11",{scale:1,x:0,y:0,transformOrigin:"50% 50%"},103.5);
+      tl.to("#zw-f11",{scale:1.6,transformOrigin:"50% 50%",duration:0.2,ease:"power3.out"},106.8);
+      tl.to("#frame-shake",{x:-18,y:10,duration:0.04,ease:"none"},107.6);
+      tl.to("#frame-shake",{x:16,y:-12,duration:0.04,ease:"none"},107.64);
+      tl.to("#frame-shake",{x:-12,y:8,duration:0.04,ease:"none"},107.68);
+      tl.to("#frame-shake",{x:10,y:-6,duration:0.04,ease:"none"},107.72);
+      tl.to("#frame-shake",{x:-6,y:4,duration:0.04,ease:"none"},107.76);
+      tl.to("#frame-shake",{x:0,y:0,duration:0.04,ease:"none"},107.8);
+      tl.set("#frame-rot",{rotation:-1.2},0);
+      tl.fromTo("#ch-f02-i",{scale:0.3,rotation:-8,opacity:0},{scale:1,rotation:-2,opacity:1,duration:0.45,ease:"back.out(2.2)"},8.8);
+      tl.to("#ch-f02-i",{scale:0.6,opacity:0,duration:0.18,ease:"power3.in"},11.0);
+      tl.fromTo("#ch-f03-i",{scale:0.3,rotation:-8,opacity:0},{scale:1,rotation:-2,opacity:1,duration:0.45,ease:"back.out(2.2)"},15.5);
+      tl.to("#ch-f03-i",{scale:0.6,opacity:0,duration:0.18,ease:"power3.in"},17.9);
+      tl.fromTo("#ch-f04-i",{scale:0.3,rotation:-8,opacity:0},{scale:1,rotation:-2,opacity:1,duration:0.45,ease:"back.out(2.2)"},26.5);
+      tl.to("#ch-f04-i",{scale:0.6,opacity:0,duration:0.18,ease:"power3.in"},28.9);
+      tl.fromTo("#ch-f05-i",{scale:0.3,rotation:-8,opacity:0},{scale:1,rotation:-2,opacity:1,duration:0.45,ease:"back.out(2.2)"},38.1);
+      tl.to("#ch-f05-i",{scale:0.6,opacity:0,duration:0.18,ease:"power3.in"},40.3);
+      tl.fromTo("#ch-f06-i",{scale:0.3,rotation:-8,opacity:0},{scale:1,rotation:-2,opacity:1,duration:0.45,ease:"back.out(2.2)"},45.5);
+      tl.to("#ch-f06-i",{scale:0.6,opacity:0,duration:0.18,ease:"power3.in"},47.7);
+      tl.fromTo("#ch-f07-i",{scale:0.3,rotation:-8,opacity:0},{scale:1,rotation:-2,opacity:1,duration:0.45,ease:"back.out(2.2)"},59.7);
+      tl.to("#ch-f07-i",{scale:0.6,opacity:0,duration:0.18,ease:"power3.in"},61.9);
+      tl.fromTo("#ch-f08-i",{scale:0.3,rotation:-8,opacity:0},{scale:1,rotation:-2,opacity:1,duration:0.45,ease:"back.out(2.2)"},74.3);
+      tl.to("#ch-f08-i",{scale:0.6,opacity:0,duration:0.18,ease:"power3.in"},76.7);
+      tl.fromTo("#ch-f09-i",{scale:0.3,rotation:-8,opacity:0},{scale:1,rotation:-2,opacity:1,duration:0.45,ease:"back.out(2.2)"},84.1);
+      tl.to("#ch-f09-i",{scale:0.6,opacity:0,duration:0.18,ease:"power3.in"},86.1);
+      tl.fromTo("#ch-f10-i",{scale:0.3,rotation:-8,opacity:0},{scale:1,rotation:-2,opacity:1,duration:0.45,ease:"back.out(2.2)"},89.6);
+      tl.to("#ch-f10-i",{scale:0.6,opacity:0,duration:0.18,ease:"power3.in"},92.0);
+      tl.fromTo("#sk-f01-0-i",{scale:0,rotation:-31},{scale:1,rotation:-6,duration:0.4,ease:"back.out(3)"},5.7);
+      tl.to("#sk-f01-0-i",{scale:0.7,opacity:0,duration:0.15,ease:"power2.in"},7.54);
+      tl.fromTo("#sk-f02-0-i",{scale:0,rotation:-17},{scale:1,rotation:8,duration:0.4,ease:"back.out(3)"},13.3);
+      tl.to("#sk-f02-0-i",{scale:0.7,opacity:0,duration:0.15,ease:"power2.in"},14.94);
+      tl.fromTo("#sk-f03-0-i",{scale:0,rotation:-31},{scale:1,rotation:-6,duration:0.4,ease:"back.out(3)"},21.6);
+      tl.to("#sk-f03-0-i",{scale:0.7,opacity:0,duration:0.15,ease:"power2.in"},23.64);
+      tl.fromTo("#sk-f04-0-i",{scale:0,rotation:-19},{scale:1,rotation:6,duration:0.4,ease:"back.out(3)"},31.3);
+      tl.to("#sk-f04-0-i",{scale:0.7,opacity:0,duration:0.15,ease:"power2.in"},32.94);
+      tl.fromTo("#sk-f06-0-i",{scale:0,rotation:-31},{scale:1,rotation:-6,duration:0.4,ease:"back.out(3)"},52.1);
+      tl.to("#sk-f06-0-i",{scale:0.7,opacity:0,duration:0.15,ease:"power2.in"},53.94);
+      tl.fromTo("#sk-f07-0-i",{scale:0,rotation:-18},{scale:1,rotation:7,duration:0.4,ease:"back.out(3)"},69.4);
+      tl.to("#sk-f07-0-i",{scale:0.7,opacity:0,duration:0.15,ease:"power2.in"},71.24);
+      tl.fromTo("#sk-f08c-0-i",{scale:0,rotation:-20},{scale:1,rotation:5,duration:0.4,ease:"back.out(3)"},79.8);
+      tl.to("#sk-f08c-0-i",{scale:0.7,opacity:0,duration:0.15,ease:"power2.in"},81.64);
+      tl.fromTo("#sk-f09-0-i",{scale:0,rotation:-15},{scale:1,rotation:10,duration:0.4,ease:"back.out(3)"},84.4);
+      tl.to("#sk-f09-0-i",{scale:0.7,opacity:0,duration:0.15,ease:"power2.in"},85.84);
+      tl.fromTo("#sk-f10b-0-i",{scale:0,rotation:-31},{scale:1,rotation:-6,duration:0.4,ease:"back.out(3)"},101.7);
+      tl.to("#sk-f10b-0-i",{scale:0.7,opacity:0,duration:0.15,ease:"power2.in"},103.24);
+      tl.fromTo("#sk-f11-0-i",{scale:0,rotation:-13},{scale:1,rotation:12,duration:0.4,ease:"back.out(3)"},107.4);
+      tl.to("#sk-f11-0-i",{scale:0.7,opacity:0,duration:0.15,ease:"power2.in"},108.34);
+      tl.fromTo("#tr-1-a",{x:-1200},{x:0,duration:0.17,ease:"power3.in"},8.62);
+      tl.to("#tr-1-a",{x:1200,duration:0.18,ease:"power3.out"},8.82);
+      tl.fromTo("#tr-1-b",{x:1200},{x:0,duration:0.17,ease:"power3.in"},8.64);
+      tl.to("#tr-1-b",{x:-1200,duration:0.18,ease:"power3.out"},8.84);
+      tl.fromTo("#tr-1-c",{x:-1200},{x:0,duration:0.17,ease:"power3.in"},8.66);
+      tl.to("#tr-1-c",{x:1200,duration:0.18,ease:"power3.out"},8.86);
+      tl.fromTo("#tr-2-a",{x:-1200},{x:0,duration:0.17,ease:"power3.in"},15.32);
+      tl.to("#tr-2-a",{x:1200,duration:0.18,ease:"power3.out"},15.52);
+      tl.fromTo("#tr-2-b",{x:1200},{x:0,duration:0.17,ease:"power3.in"},15.34);
+      tl.to("#tr-2-b",{x:-1200,duration:0.18,ease:"power3.out"},15.54);
+      tl.fromTo("#tr-2-c",{x:-1200},{x:0,duration:0.17,ease:"power3.in"},15.36);
+      tl.to("#tr-2-c",{x:1200,duration:0.18,ease:"power3.out"},15.56);
+      tl.fromTo("#tr-3-a",{x:-1200},{x:0,duration:0.17,ease:"power3.in"},26.32);
+      tl.to("#tr-3-a",{x:1200,duration:0.18,ease:"power3.out"},26.52);
+      tl.fromTo("#tr-3-b",{x:1200},{x:0,duration:0.17,ease:"power3.in"},26.34);
+      tl.to("#tr-3-b",{x:-1200,duration:0.18,ease:"power3.out"},26.54);
+      tl.fromTo("#tr-3-c",{x:-1200},{x:0,duration:0.17,ease:"power3.in"},26.36);
+      tl.to("#tr-3-c",{x:1200,duration:0.18,ease:"power3.out"},26.56);
+      tl.fromTo("#tr-4-a",{x:-1200},{x:0,duration:0.17,ease:"power3.in"},37.92);
+      tl.to("#tr-4-a",{x:1200,duration:0.18,ease:"power3.out"},38.12);
+      tl.fromTo("#tr-4-b",{x:1200},{x:0,duration:0.17,ease:"power3.in"},37.94);
+      tl.to("#tr-4-b",{x:-1200,duration:0.18,ease:"power3.out"},38.14);
+      tl.fromTo("#tr-4-c",{x:-1200},{x:0,duration:0.17,ease:"power3.in"},37.96);
+      tl.to("#tr-4-c",{x:1200,duration:0.18,ease:"power3.out"},38.16);
+      tl.fromTo("#tr-5-a",{x:-1200},{x:0,duration:0.17,ease:"power3.in"},45.32);
+      tl.to("#tr-5-a",{x:1200,duration:0.18,ease:"power3.out"},45.52);
+      tl.fromTo("#tr-5-b",{x:1200},{x:0,duration:0.17,ease:"power3.in"},45.34);
+      tl.to("#tr-5-b",{x:-1200,duration:0.18,ease:"power3.out"},45.54);
+      tl.fromTo("#tr-5-c",{x:-1200},{x:0,duration:0.17,ease:"power3.in"},45.36);
+      tl.to("#tr-5-c",{x:1200,duration:0.18,ease:"power3.out"},45.56);
+      tl.fromTo("#tr-7-a",{x:-1200},{x:0,duration:0.17,ease:"power3.in"},59.52);
+      tl.to("#tr-7-a",{x:1200,duration:0.18,ease:"power3.out"},59.72);
+      tl.fromTo("#tr-7-b",{x:1200},{x:0,duration:0.17,ease:"power3.in"},59.54);
+      tl.to("#tr-7-b",{x:-1200,duration:0.18,ease:"power3.out"},59.74);
+      tl.fromTo("#tr-7-c",{x:-1200},{x:0,duration:0.17,ease:"power3.in"},59.56);
+      tl.to("#tr-7-c",{x:1200,duration:0.18,ease:"power3.out"},59.76);
+      tl.fromTo("#tr-9-a",{x:-1200},{x:0,duration:0.17,ease:"power3.in"},74.12);
+      tl.to("#tr-9-a",{x:1200,duration:0.18,ease:"power3.out"},74.32);
+      tl.fromTo("#tr-9-b",{x:1200},{x:0,duration:0.17,ease:"power3.in"},74.14);
+      tl.to("#tr-9-b",{x:-1200,duration:0.18,ease:"power3.out"},74.34);
+      tl.fromTo("#tr-9-c",{x:-1200},{x:0,duration:0.17,ease:"power3.in"},74.16);
+      tl.to("#tr-9-c",{x:1200,duration:0.18,ease:"power3.out"},74.36);
+      tl.fromTo("#tr-12-a",{x:-1200},{x:0,duration:0.17,ease:"power3.in"},83.92);
+      tl.to("#tr-12-a",{x:1200,duration:0.18,ease:"power3.out"},84.12);
+      tl.fromTo("#tr-12-b",{x:1200},{x:0,duration:0.17,ease:"power3.in"},83.94);
+      tl.to("#tr-12-b",{x:-1200,duration:0.18,ease:"power3.out"},84.14);
+      tl.fromTo("#tr-12-c",{x:-1200},{x:0,duration:0.17,ease:"power3.in"},83.96);
+      tl.to("#tr-12-c",{x:1200,duration:0.18,ease:"power3.out"},84.16);
+      tl.fromTo("#tr-13-a",{x:-1200},{x:0,duration:0.17,ease:"power3.in"},89.42);
+      tl.to("#tr-13-a",{x:1200,duration:0.18,ease:"power3.out"},89.62);
+      tl.fromTo("#tr-13-b",{x:1200},{x:0,duration:0.17,ease:"power3.in"},89.44);
+      tl.to("#tr-13-b",{x:-1200,duration:0.18,ease:"power3.out"},89.64);
+      tl.fromTo("#tr-13-c",{x:-1200},{x:0,duration:0.17,ease:"power3.in"},89.46);
+      tl.to("#tr-13-c",{x:1200,duration:0.18,ease:"power3.out"},89.66);
+      tl.fromTo("#tr-15-a",{x:-1200},{x:0,duration:0.17,ease:"power3.in"},103.32);
+      tl.to("#tr-15-a",{x:1200,duration:0.18,ease:"power3.out"},103.52);
+      tl.fromTo("#tr-15-b",{x:1200},{x:0,duration:0.17,ease:"power3.in"},103.34);
+      tl.to("#tr-15-b",{x:-1200,duration:0.18,ease:"power3.out"},103.54);
+      tl.fromTo("#tr-15-c",{x:-1200},{x:0,duration:0.17,ease:"power3.in"},103.36);
+      tl.to("#tr-15-c",{x:1200,duration:0.18,ease:"power3.out"},103.56);
+      tl.fromTo("#hook-1",{scale:1.08},{scale:1,duration:0.5,ease:"power3.out"},0);
+      tl.to(["#hook-1","#hook-2"],{opacity:0,y:-20,duration:0.2,ease:"power2.in"},2.08);
+      tl.fromTo("#outro-b",{scale:0.7,opacity:0},{scale:1,opacity:1,duration:0.5,ease:"back.out(2)"},108.6);
+      tl.fromTo("#outro-s",{y:20,opacity:0},{y:0,opacity:1,duration:0.4,ease:"power3.out"},108.85);
       window.__timelines["main"] = tl;
-      tl.seek(0);
     </script>
   </body>
 </html>

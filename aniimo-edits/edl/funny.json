@@ -1,0 +1,1085 @@
+{
+ "title": "Mira vs Aniimo: Funny Moments",
+ "style": "funny",
+ "cap_words": 3,
+ "seam_sfx": [
+  "whoosh",
+  "whoosh-short"
+ ],
+ "seam_vol": 0.3,
+ "hook": {
+  "text": "KESABARAN DIUJI",
+  "kicker": "MIRA VS ANIIMO MAP BARU",
+  "d": 2.3
+ },
+ "outro": {
+  "text": "NAK<br>PART 2?",
+  "kicker": "Follow untuk momen kelakar seterusnya",
+  "dur": 3.0,
+  "sfx": "pop"
+ },
+ "segments": [
+  {
+   "id": "f01",
+   "in": 2489.6,
+   "out": 2498.4,
+   "captions": [
+    {
+     "t": 2490.23,
+     "e": 2491.27,
+     "text": "Allahuakbar!",
+     "hl": []
+    },
+    {
+     "t": 2491.27,
+     "e": 2493.79,
+     "text": "Ah, pukul! Woi, dia pukul aku balik!",
+     "hl": [
+      "PUKUL!",
+      "BALIK!"
+     ]
+    },
+    {
+     "t": 2493.79,
+     "e": 2494.89,
+     "text": "Ah, ambil ni!",
+     "hl": []
+    },
+    {
+     "t": 2494.89,
+     "e": 2497.67,
+     "text": "Woi! Dia pakai bontot!",
+     "hl": [
+      "BONTOT!"
+     ]
+    }
+   ],
+   "zooms": [
+    {
+     "at": 2491.3,
+     "s": 1.3,
+     "d": 0.3,
+     "ox": 50,
+     "oy": 50
+    },
+    {
+     "at": 2494.9,
+     "s": 1.75,
+     "d": 0.2,
+     "ox": 50,
+     "oy": 50
+    },
+    {
+     "at": 2497.7,
+     "s": 1.0,
+     "d": 0.4,
+     "ox": 50,
+     "oy": 50
+    }
+   ],
+   "shake": [
+    2494.95
+   ],
+   "stickers": [
+    {
+     "at": 2495.3,
+     "text": "SERANGAN BONTOT!",
+     "x": 150,
+     "y": 980,
+     "d": 2.0,
+     "cls": "",
+     "rot": -6
+    }
+   ],
+   "sfx": [
+    {
+     "at": 2491.3,
+     "name": "whoosh-short",
+     "vol": 0.4
+    },
+    {
+     "at": 2494.9,
+     "name": "impact-bass-1",
+     "vol": 0.5
+    }
+   ]
+  },
+  {
+   "id": "f02",
+   "in": 178.3,
+   "out": 185.0,
+   "chapter": {
+    "text": "Tak nak sawi!",
+    "num": "MOMEN #1",
+    "d": 2.4
+   },
+   "captions": [
+    {
+     "t": 178.62,
+     "e": 179.02,
+     "text": "Sawi!",
+     "hl": [
+      "SAWI!"
+     ]
+    },
+    {
+     "t": 179.3,
+     "e": 180.14,
+     "text": "Oi! Jangan!",
+     "hl": []
+    },
+    {
+     "t": 181.86,
+     "e": 182.66,
+     "text": "Jangan sawi!",
+     "hl": [
+      "SAWI!"
+     ]
+    },
+    {
+     "t": 182.76,
+     "e": 183.36,
+     "text": "Tak nak!",
+     "hl": []
+    },
+    {
+     "t": 183.48,
+     "e": 184.72,
+     "text": "Tak nak sawi!",
+     "hl": [
+      "SAWI!"
+     ]
+    }
+   ],
+   "zooms": [
+    {
+     "at": 179.3,
+     "s": 1.35,
+     "d": 0.3,
+     "ox": 50,
+     "oy": 50
+    },
+    {
+     "at": 183.5,
+     "s": 1.6,
+     "d": 0.2,
+     "ox": 50,
+     "oy": 50
+    }
+   ],
+   "stickers": [
+    {
+     "at": 182.8,
+     "text": "TAK NAK!",
+     "x": 540,
+     "y": 470,
+     "d": 1.8,
+     "cls": "blue",
+     "rot": 8
+    }
+   ],
+   "sfx": [
+    {
+     "at": 178.6,
+     "name": "pop",
+     "vol": 0.4
+    },
+    {
+     "at": 182.8,
+     "name": "error",
+     "vol": 0.3
+    }
+   ]
+  },
+  {
+   "id": "f03",
+   "in": 822.6,
+   "out": 833.6,
+   "chapter": {
+    "text": "Habis duit!",
+    "num": "MOMEN #2",
+    "d": 2.6
+   },
+   "captions": [
+    {
+     "t": 822.81,
+     "e": 823.29,
+     "text": "Seribu?!",
+     "hl": []
+    },
+    {
+     "t": 823.81,
+     "e": 826.69,
+     "text": "Oh tak boleh, tak boleh, tak boleh.",
+     "hl": []
+    },
+    {
+     "t": 827.15,
+     "e": 828.25,
+     "text": "Habis duit, habis duit.",
+     "hl": []
+    },
+    {
+     "t": 828.55,
+     "e": 829.93,
+     "text": "Habis duit!",
+     "hl": [
+      "DUIT!"
+     ]
+    },
+    {
+     "t": 830.27,
+     "e": 831.35,
+     "text": "Okay, jimat Mira, jimat.",
+     "hl": []
+    },
+    {
+     "t": 831.35,
+     "e": 833.51,
+     "text": "Jangan membazir.",
+     "hl": [
+      "MEMBAZIR."
+     ]
+    }
+   ],
+   "zooms": [
+    {
+     "at": 822.8,
+     "s": 1.25,
+     "d": 0.3,
+     "ox": 50,
+     "oy": 50
+    },
+    {
+     "at": 828.5,
+     "s": 1.6,
+     "d": 0.2,
+     "ox": 50,
+     "oy": 50
+    },
+    {
+     "at": 830.3,
+     "s": 1.0,
+     "d": 0.4,
+     "ox": 50,
+     "oy": 50
+    }
+   ],
+   "shake": [
+    828.6
+   ],
+   "stickers": [
+    {
+     "at": 828.7,
+     "text": "DOMPET: KOSONG",
+     "x": 120,
+     "y": 960,
+     "d": 2.2,
+     "cls": "white",
+     "rot": -6
+    }
+   ],
+   "sfx": [
+    {
+     "at": 828.5,
+     "name": "error",
+     "vol": 0.35
+    },
+    {
+     "at": 831.4,
+     "name": "click",
+     "vol": 0.4
+    }
+   ]
+  },
+  {
+   "id": "f04",
+   "in": 709.2,
+   "out": 720.8,
+   "chapter": {
+    "text": "Mana akak kedai?",
+    "num": "MOMEN #3",
+    "d": 2.6
+   },
+   "captions": [
+    {
+     "t": 709.28,
+     "e": 710.06,
+     "text": "Oh weee...",
+     "hl": []
+    },
+    {
+     "t": 710.06,
+     "e": 712.08,
+     "text": "Perempuan tu dah tak ada!",
+     "hl": []
+    },
+    {
+     "t": 712.08,
+     "e": 713.94,
+     "text": "Dia ganti dengan ni.",
+     "hl": []
+    },
+    {
+     "t": 713.94,
+     "e": 715.02,
+     "text": "Damn.",
+     "hl": [
+      "DAMN."
+     ]
+    },
+    {
+     "t": 715.02,
+     "e": 717.3,
+     "text": "Weee, dia ganti perempuan!",
+     "hl": []
+    },
+    {
+     "t": 717.3,
+     "e": 720.57,
+     "text": "Tak baik tu ganti perempuan tu!",
+     "hl": [
+      "TAK",
+      "BAIK"
+     ]
+    }
+   ],
+   "zooms": [
+    {
+     "at": 710.1,
+     "s": 1.3,
+     "d": 0.5,
+     "ox": 50,
+     "oy": 50
+    },
+    {
+     "at": 713.9,
+     "s": 1.55,
+     "d": 0.2,
+     "ox": 50,
+     "oy": 50
+    },
+    {
+     "at": 715.1,
+     "s": 1.0,
+     "d": 0.4,
+     "ox": 50,
+     "oy": 50
+    }
+   ],
+   "stickers": [
+    {
+     "at": 714.0,
+     "text": "STAF BARU?!",
+     "x": 440,
+     "y": 1000,
+     "d": 1.8,
+     "cls": "blue",
+     "rot": 6
+    }
+   ],
+   "sfx": [
+    {
+     "at": 713.9,
+     "name": "glitch-1",
+     "vol": 0.3
+    }
+   ]
+  },
+  {
+   "id": "f05",
+   "in": 1734.5,
+   "out": 1741.9,
+   "chapter": {
+    "text": "Ada yang kena debik",
+    "num": "MOMEN #4",
+    "d": 2.4
+   },
+   "captions": [
+    {
+     "t": 1734.72,
+     "e": 1737.04,
+     "text": "Ada yang kena debik ni sekejap lagi.",
+     "hl": [
+      "DEBIK"
+     ]
+    },
+    {
+     "t": 1738.72,
+     "e": 1740.3,
+     "text": "Betul-betul ni Mira cakap.",
+     "hl": []
+    },
+    {
+     "t": 1740.3,
+     "e": 1741.9,
+     "text": "Adik, betul-betul kena debik ni!",
+     "hl": [
+      "DEBIK"
+     ]
+    }
+   ],
+   "zooms": [
+    {
+     "at": 1738.7,
+     "s": 1.35,
+     "d": 0.25,
+     "ox": 50,
+     "oy": 50
+    },
+    {
+     "at": 1740.4,
+     "s": 1.7,
+     "d": 0.2,
+     "ox": 50,
+     "oy": 50
+    }
+   ],
+   "shake": [
+    1740.5
+   ],
+   "sfx": [
+    {
+     "at": 1740.4,
+     "name": "impact-bass-2",
+     "vol": 0.35
+    }
+   ]
+  },
+  {
+   "id": "f06",
+   "in": 1832.6,
+   "out": 1843.2,
+   "chapter": {
+    "text": "Dah jumpa kau!",
+    "num": "MOMEN #5",
+    "d": 2.4
+   },
+   "captions": [
+    {
+     "t": 1832.76,
+     "e": 1833.72,
+     "text": "Oh, tu ha?",
+     "hl": []
+    },
+    {
+     "t": 1834.3,
+     "e": 1834.82,
+     "text": "Lah!",
+     "hl": []
+    },
+    {
+     "t": 1835.46,
+     "e": 1836.1,
+     "text": "Kau eh!",
+     "hl": [
+      "KAU"
+     ]
+    },
+    {
+     "t": 1837.32,
+     "e": 1839.12,
+     "text": "Eh kau ni, kejap lagi.",
+     "hl": []
+    },
+    {
+     "t": 1839.12,
+     "e": 1841.54,
+     "text": "Lama tau dah cari!",
+     "hl": [
+      "LAMA"
+     ]
+    },
+    {
+     "t": 1841.54,
+     "e": 1843.06,
+     "text": "Kau sini kau!",
+     "hl": []
+    }
+   ],
+   "zooms": [
+    {
+     "at": 1834.3,
+     "s": 1.5,
+     "d": 0.2,
+     "ox": 50,
+     "oy": 50
+    },
+    {
+     "at": 1837.3,
+     "s": 1.2,
+     "d": 0.4,
+     "ox": 50,
+     "oy": 50
+    },
+    {
+     "at": 1841.5,
+     "s": 1.6,
+     "d": 0.2,
+     "ox": 50,
+     "oy": 50
+    }
+   ],
+   "shake": [
+    1835.5
+   ],
+   "stickers": [
+    {
+     "at": 1839.2,
+     "text": "LAMA TAU DAH CARI!",
+     "x": 110,
+     "y": 990,
+     "d": 2.0,
+     "cls": "",
+     "rot": -6
+    }
+   ],
+   "sfx": [
+    {
+     "at": 1834.3,
+     "name": "pop",
+     "vol": 0.4
+    },
+    {
+     "at": 1835.5,
+     "name": "impact-bass-1",
+     "vol": 0.35
+    }
+   ]
+  },
+  {
+   "id": "f06b",
+   "in": 1844.8,
+   "out": 1848.4,
+   "cut": "hard",
+   "captions": [
+    {
+     "t": 1844.9,
+     "e": 1845.94,
+     "text": "Masuk cepat!",
+     "hl": [
+      "CEPAT!"
+     ]
+    },
+    {
+     "t": 1845.94,
+     "e": 1848.36,
+     "text": "Kau yang lain duduk diam-diam eh.",
+     "hl": []
+    }
+   ],
+   "zooms": [
+    {
+     "at": 1844.9,
+     "s": 1.4,
+     "d": 0.2,
+     "ox": 50,
+     "oy": 50
+    },
+    {
+     "at": 1846.0,
+     "s": 1.15,
+     "d": 0.5,
+     "ox": 50,
+     "oy": 50
+    }
+   ],
+   "sfx": [
+    {
+     "at": 1844.9,
+     "name": "whoosh-short",
+     "vol": 0.3
+    }
+   ]
+  },
+  {
+   "id": "f07",
+   "in": 2045.3,
+   "out": 2057.7,
+   "chapter": {
+    "text": "Nampak ni?!",
+    "num": "MOMEN #6",
+    "d": 2.4
+   },
+   "captions": [
+    {
+     "t": 2045.35,
+     "e": 2046.75,
+     "text": "Woi, kat sini!",
+     "hl": []
+    },
+    {
+     "t": 2046.75,
+     "e": 2047.71,
+     "text": "Tengok eh.",
+     "hl": []
+    },
+    {
+     "t": 2047.71,
+     "e": 2048.57,
+     "text": "Ha, nampak ni.",
+     "hl": []
+    },
+    {
+     "t": 2048.57,
+     "e": 2049.63,
+     "text": "Nampak ni!",
+     "hl": [
+      "NAMPAK"
+     ]
+    },
+    {
+     "t": 2050.23,
+     "e": 2050.99,
+     "text": "Tengok!",
+     "hl": []
+    },
+    {
+     "t": 2050.99,
+     "e": 2052.59,
+     "text": "Pakai mata hati, nampak ni.",
+     "hl": [
+      "HATI,"
+     ]
+    },
+    {
+     "t": 2053.17,
+     "e": 2054.89,
+     "text": "Mira tunjukkan korang, nampak ni.",
+     "hl": []
+    },
+    {
+     "t": 2054.89,
+     "e": 2055.63,
+     "text": "Ni ni ni ni!",
+     "hl": []
+    },
+    {
+     "t": 2055.63,
+     "e": 2056.05,
+     "text": "Nampak!",
+     "hl": [
+      "NAMPAK!"
+     ]
+    },
+    {
+     "t": 2056.77,
+     "e": 2057.61,
+     "text": "Mira tunjuk!",
+     "hl": []
+    }
+   ],
+   "zooms": [
+    {
+     "at": 2048.6,
+     "s": 1.15,
+     "d": 0.15,
+     "ox": 50,
+     "oy": 50
+    },
+    {
+     "at": 2050.2,
+     "s": 1.35,
+     "d": 0.15,
+     "ox": 50,
+     "oy": 50
+    },
+    {
+     "at": 2053.2,
+     "s": 1.15,
+     "d": 0.3,
+     "ox": 50,
+     "oy": 50
+    },
+    {
+     "at": 2054.9,
+     "s": 1.7,
+     "d": 0.15,
+     "ox": 50,
+     "oy": 50
+    }
+   ],
+   "stickers": [
+    {
+     "at": 2055.0,
+     "text": "NAMPAK x10",
+     "x": 420,
+     "y": 980,
+     "d": 2.0,
+     "cls": "white",
+     "rot": 7
+    }
+   ],
+   "sfx": [
+    {
+     "at": 2048.6,
+     "name": "pop",
+     "vol": 0.3
+    },
+    {
+     "at": 2050.2,
+     "name": "pop",
+     "vol": 0.3
+    },
+    {
+     "at": 2054.9,
+     "name": "pop",
+     "vol": 0.35
+    }
+   ]
+  },
+  {
+   "id": "f07b",
+   "in": 2066.2,
+   "out": 2068.4,
+   "cut": "hard",
+   "captions": [
+    {
+     "t": 2066.29,
+     "e": 2068.35,
+     "text": "Pandang mata saya.",
+     "hl": [
+      "MATA"
+     ]
+    }
+   ],
+   "zooms": [
+    {
+     "at": 2066.3,
+     "s": 1.8,
+     "d": 1.6,
+     "ox": 50,
+     "oy": 50,
+     "ease": "power1.inOut"
+    }
+   ],
+   "sfx": []
+  },
+  {
+   "id": "f08",
+   "in": 4031.5,
+   "out": 4033.3,
+   "chapter": {
+    "text": "Mira dah penat...",
+    "num": "MOMEN #7",
+    "d": 2.6
+   },
+   "captions": [
+    {
+     "t": 4031.7,
+     "e": 4033.08,
+     "text": "Bunuh aje lah aku ni.",
+     "hl": [
+      "BUNUH"
+     ]
+    }
+   ],
+   "zooms": [
+    {
+     "at": 4031.5,
+     "s": 1.2,
+     "d": 1.8,
+     "ox": 50,
+     "oy": 50,
+     "ease": "none"
+    }
+   ]
+  },
+  {
+   "id": "f08b",
+   "in": 4050.6,
+   "out": 4053.4,
+   "cut": "hard",
+   "captions": [
+    {
+     "t": 4050.67,
+     "e": 4053.31,
+     "text": "Bunuh je lah aku, ya Allah!",
+     "hl": [
+      "BUNUH"
+     ]
+    }
+   ],
+   "zooms": [
+    {
+     "at": 4050.6,
+     "s": 1.45,
+     "d": 0.2,
+     "ox": 50,
+     "oy": 50
+    }
+   ],
+   "shake": [
+    4050.8
+   ],
+   "sfx": [
+    {
+     "at": 4050.7,
+     "name": "impact-bass-2",
+     "vol": 0.3
+    }
+   ]
+  },
+  {
+   "id": "f08c",
+   "in": 4062.1,
+   "out": 4067.3,
+   "cut": "hard",
+   "captions": [
+    {
+     "t": 4062.17,
+     "e": 4064.71,
+     "text": "Terima kasih, awak meredakan kemarahan saya.",
+     "hl": []
+    },
+    {
+     "t": 4064.71,
+     "e": 4067.19,
+     "text": "Baru je nak berubah tadi!",
+     "hl": [
+      "BERUBAH"
+     ]
+    }
+   ],
+   "zooms": [
+    {
+     "at": 4062.1,
+     "s": 1.0,
+     "d": 0.3,
+     "ox": 50,
+     "oy": 50
+    }
+   ],
+   "stickers": [
+    {
+     "at": 4063.0,
+     "text": "MOOD: REDA",
+     "x": 430,
+     "y": 1000,
+     "d": 2.0,
+     "cls": "blue",
+     "rot": 5
+    }
+   ],
+   "sfx": [
+    {
+     "at": 4063.0,
+     "name": "chime",
+     "vol": 0.25
+    }
+   ]
+  },
+  {
+   "id": "f09",
+   "in": 7196.1,
+   "out": 7201.6,
+   "chapter": {
+    "text": "Terkejut!",
+    "num": "MOMEN #8",
+    "d": 2.2
+   },
+   "captions": [
+    {
+     "t": 7196.26,
+     "e": 7197.12,
+     "text": "Woi, terkejut aku!",
+     "hl": [
+      "TERKEJUT"
+     ]
+    },
+    {
+     "t": 7198.08,
+     "e": 7201.52,
+     "text": "Sorry sorry sorry, terkacau, terkacau, sorry!",
+     "hl": []
+    }
+   ],
+   "zooms": [
+    {
+     "at": 7196.2,
+     "s": 1.6,
+     "d": 0.12,
+     "ox": 50,
+     "oy": 50
+    },
+    {
+     "at": 7198.1,
+     "s": 1.1,
+     "d": 0.5,
+     "ox": 50,
+     "oy": 50
+    }
+   ],
+   "shake": [
+    7196.3
+   ],
+   "stickers": [
+    {
+     "at": 7196.4,
+     "text": "WOI!",
+     "x": 760,
+     "y": 470,
+     "d": 1.6,
+     "cls": "",
+     "rot": 10
+    }
+   ],
+   "sfx": [
+    {
+     "at": 7196.2,
+     "name": "glitch-2",
+     "vol": 0.3
+    }
+   ]
+  },
+  {
+   "id": "f10",
+   "in": 5893.6,
+   "out": 5900.9,
+   "chapter": {
+    "text": "Ujian kesabaran",
+    "num": "MOMEN #9",
+    "d": 2.6
+   },
+   "captions": [
+    {
+     "t": 5893.66,
+     "e": 5895.96,
+     "text": "Mira ni banyak yang menguji keimanan.",
+     "hl": [
+      "KEIMANAN."
+     ]
+    },
+    {
+     "t": 5897.86,
+     "e": 5899.78,
+     "text": "Sumpah, keimanan Mira betul-betul",
+     "hl": []
+    },
+    {
+     "t": 5899.78,
+     "e": 5900.78,
+     "text": "diuji malam ni...",
+     "hl": []
+    }
+   ],
+   "zooms": [
+    {
+     "at": 5893.6,
+     "s": 1.25,
+     "d": 7.0,
+     "ox": 50,
+     "oy": 50,
+     "ease": "none"
+    }
+   ]
+  },
+  {
+   "id": "f10b",
+   "in": 5932.5,
+   "out": 5939.1,
+   "cut": "hard",
+   "captions": [
+    {
+     "t": 5932.56,
+     "e": 5936.52,
+     "text": "Ya Allah, berilah kesabaran yang paling besar untuk aku.",
+     "hl": []
+    },
+    {
+     "t": 5937.18,
+     "e": 5938.98,
+     "text": "Assalamualaikum, saya Jomet Sabar.",
+     "hl": [
+      "SABAR."
+     ]
+    }
+   ],
+   "zooms": [
+    {
+     "at": 5932.5,
+     "s": 1.0,
+     "d": 0.3,
+     "ox": 50,
+     "oy": 50
+    },
+    {
+     "at": 5937.2,
+     "s": 1.5,
+     "d": 0.2,
+     "ox": 50,
+     "oy": 50
+    }
+   ],
+   "stickers": [
+    {
+     "at": 5937.3,
+     "text": "LEVEL SABAR: MAX",
+     "x": 140,
+     "y": 990,
+     "d": 1.7,
+     "cls": "white",
+     "rot": -6
+    }
+   ],
+   "sfx": [
+    {
+     "at": 5937.2,
+     "name": "sparkle",
+     "vol": 0.35
+    }
+   ]
+  },
+  {
+   "id": "f11",
+   "in": 6720.3,
+   "out": 6725.3,
+   "captions": [
+    {
+     "t": 6720.41,
+     "e": 6722.13,
+     "text": "Kalau tak sabar, memang tak boleh buat apa.",
+     "hl": []
+    },
+    {
+     "t": 6723.61,
+     "e": 6725.05,
+     "text": "Kalau tak sabar, boleh pergi Sarawak.",
+     "hl": [
+      "SARAWAK."
+     ]
+    }
+   ],
+   "zooms": [
+    {
+     "at": 6723.6,
+     "s": 1.6,
+     "d": 0.2,
+     "ox": 50,
+     "oy": 50
+    }
+   ],
+   "shake": [
+    6724.4
+   ],
+   "stickers": [
+    {
+     "at": 6724.2,
+     "text": "?!",
+     "x": 820,
+     "y": 460,
+     "d": 1.1,
+     "cls": "blue",
+     "rot": 12
+    }
+   ],
+   "sfx": [
+    {
+     "at": 6724.3,
+     "name": "impact-bass-1",
+     "vol": 0.4
+    }
+   ]
+  }
+ ]
+}
